@@ -1,0 +1,13 @@
+import React from 'react';
+import '../style.css';
+
+export default function Todo() {
+  return (
+    <div className="card">
+      <h2>Title</h2>
+      <div className="actions">
+        <button className="btn">Delete</button>
+      </div>
+    </div>
+  );
+}
